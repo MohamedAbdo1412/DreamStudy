@@ -21,7 +21,7 @@ paypal.Buttons({
         return actions.order.create({
             purchase_units: [{
                 amount: {
-                    value: '360' // هذا هو السعر بعد الخصم للخطة الحكومية
+                    value: '400' // هذا هو السعر بعد الخصم للخطة الحكومية
                 }
             }]
         });
