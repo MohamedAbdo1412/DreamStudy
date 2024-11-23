@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدراسة في مصر</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://www.paypal.com/sdk/js?client-id=AS0IIrw0nIp3U4Qjw0otbL-jTamwREAOp-5DDAwwwkK0buwhVY4vLk9xBGcRwCM5gkb57pHKrMpSSVPd&currency=USD"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <span class="material-icons">school</span>
+                <span>الدراسة في مصر</span>
+            </div>
+            <ul class="navbar-nav">
+                <li><a href="#home"><span class="material-icons">home</span> الرئيسية</a></li>
+                <li><a href="#services"><span class="material-icons">work_outline</span> الخدمات</a></li>
+                <li><a href="#plans"><span class="material-icons">payments</span> خططنا</a></li>
+                <li><a href="#about"><span class="material-icons">info</span> عنّا</a></li>
+                <li><a href="#contact"><span class="material-icons">contact_mail</span> التواصل</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2><span class="material-icons">emoji_people</span> مرحبًا بكم!</h2>
+            <p>نحن هنا لتسهيل كل الأمور الدراسية للطلاب الدوليين.</p>
+        </section>
+
+        <section id="services">
+            <h2><span class="material-icons">miscellaneous_services</span> خدماتنا</h2>
+            <ul>
+                <li><span class="material-icons">description</span> تجهيز الأوراق الجامعية</li>
+                <li><span class="material-icons">flight</span> استخراج الإقامة وتصاريح السفر</li>
+                <li><span class="material-icons">hotel</span> حجز السكن الطلابي</li>
+                <li><span class="material-icons">support</span> استشارات دراسية</li>
+            </ul>
+        </section>
+
+        <!-- Plans Section with Cards -->
+        <section id="plan" class="container">
+            <div class="pricing">
+            <div class="pricing-card">
+                <h3 class="pricing-card-heading pricing-card-heading-free">الخدمات الحكومية</h3>
+                <ul class="pricing-card-list">
+                <li class="pricing-card-list-item icon-yes">تجهيز جميع الأوراق المطلوبة
+                </li>
+                <li class="pricing-card-list-item icon-yes">تقديم الطلبات للجامعات</li>
+                <li class="pricing-card-list-item icon-yes">متابعة حالة القبول</li>
+                
+                <li class="pricing-card-list-item icon-no">الاستقبال من المطار</li>
+                <li class="pricing-card-list-item icon-no">المساعدة في السكن</li><span>Soon...</span>
+                </ul>
+                <p class="pricing-card-price">$300</p>
+                <div id="paypal-button-container-1" class="plan-button"></div>
+            </div>
+            <div class="pricing-card pricing-card-highlight">
+                <h3 class="pricing-card-heading pricing-card-heading-lite">المساعدة الشاملة للوصول</h3>
+                <ul class="pricing-card-list">
+                    <li class="pricing-card-list-item icon-yes">تجهيز جميع الأوراق المطلوبة
+                    </li>
+                    <li class="pricing-card-list-item icon-yes">تقديم الطلبات للجامعات</li>
+                    <li class="pricing-card-list-item icon-yes">متابعة حالة القبول</li>
+                    
+                    <li class="pricing-card-list-item icon-yes">الاستقبال من المطار</li>
+                    <li class="pricing-card-list-item icon-no">المساعدة في السكن</li><span>Soon...</span>
+                    </ul>
+                <p class="pricing-card-price">$400</p>
+                <div id="paypal-button-container-2" class="plan-button"></div>
+            </div>
+            <!-- <div class="pricing-card">
+                <h3 class="pricing-card-heading pricing-card-heading-pro">الكل في واحد</h3>
+                <ul class="pricing-card-list">
+                    <li class="pricing-card-list-item icon-yes">تجهيز جميع الأوراق المطلوبة
+                    </li>
+                    <li class="pricing-card-list-item icon-yes">تقديم الطلبات للجامعات</li>
+                    <li class="pricing-card-list-item icon-yes">متابعة حالة القبول</li>
+                    
+                    <li class="pricing-card-list-item icon-yes">الاستقبال من المطار</li>
+                    <li class="pricing-card-list-item icon-yes">المساعدة في السكن</li>
+                    </ul>
+                <p class="pricing-card-price">$500</p>
+                <div id="paypal-button-container-3" class="plan-button"></div>
+            </div> -->
+            </div>
+        </section>
+        
+        
+
+        <section id="about">
+            <h2><span class="material-icons">info</span> من نحن؟</h2>
+            <p>شركة متخصصة في مساعدة الطلاب الدوليين في تحقيق أحلامهم الدراسية في مصر.</p>
+        </section>
+
+        <section id="contact">
+            <h2><span class="material-icons">contact_mail</span> تواصل معنا</h2>
+            <form>
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit"><span class="material-icons">send</span> إرسال</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
